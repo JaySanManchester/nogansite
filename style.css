@@ -31,6 +31,23 @@ p {color: rgb(238, 255, 0);}
     text-align: centre;
 }
 
+/* New flexbox css - settings for main group*/
+.flexbox-container{
+	display:flex; /*set display to flexbox */
+}
+
+
+.flexbox-item{
+	background-color: goldenrod;
+    text-align: center;
+	margin: 10px;  /*space around box */
+	padding: 10px; /*space inside box around contents */
+	text-align: center;
+	line-height: 75px; /*height of boxes */
+	font-size: 30px; 
+	flex-grow: 1; /*stretch items to fill width of screen equally*/
+}
+
 .navbar {
     background-color: goldenrod;
     width: 100%;
