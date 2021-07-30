@@ -48,6 +48,15 @@ p {color: rgb(238, 255, 0);}
 	flex-grow: 1; /*stretch items to fill width of screen equally*/
 }
 
+.link-item{
+	font-weight: bold;
+	color: rgb(238, 255, 0);
+}
+
+#current-page{
+	color: white;
+}
+
 .navbar {
     background-color: goldenrod;
     width: 100%;
